@@ -9,11 +9,54 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <main>
+        <div class="container">
+            <div class="slider">
+                <input type="radio" name="button" id="slide1" checked>
+                <input type="radio" name="button" id="slide2">
+                <input type="radio" name="button" id="slide3">
+                <input type="radio" name="button" id="slide4">
 
-        
+                <div class="slider-wrapper" id="slider">
+                    <div class="slider-content">
+                        <div class="slider-item"><img src="assets/img1.png" alt="train" class="img"></div>
+                        <div class="slider-item"><img src="assets/img2.png" alt="hell" class="img"></div>
+                        <div class="slider-item"><img src="assets/img3.png" alt="deadline" class="img"></div>
+                        <div class="slider-item"><img src="assets/img4.png" alt="feature" class="img"></div>
+                    </div>
+                </div>
 
-    </div>
+                <div class="tail" id="labels">
+
+                    <div class="texts">
+                        <div class="slider-texts">
+                            <div class="slider-text text1">Pull request</div>
+                            <div class="slider-text text2">Last push</div>
+                            <div class="slider-text text3">Procrastination</div>
+                            <div class="slider-text text4">The struggle</div>
+                        </div>
+                    </div>
+
+                    <div class="slider-controls" id="controls">
+                        <label for="slide1" class="bullet">
+                            <div class="bullet-item"></div>
+                        </label>
+                        <label for="slide2" class="bullet">
+                            <div class="bullet-item"></div>
+                        </label>
+                        <label for="slide3" class="bullet">
+                            <div class="bullet-item"></div>
+                        </label>
+                        <label for="slide4" class="bullet">
+                            <div class="bullet-item"></div>
+                        </label>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
