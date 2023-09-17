@@ -188,7 +188,7 @@
     .tail {
       flex-direction: column-reverse;
       gap: 1em;
-      font-size: 0.9em;
+      font-size: 1em;
     }
   }
   
